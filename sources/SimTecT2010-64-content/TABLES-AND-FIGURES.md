@@ -9,7 +9,6 @@ Captions below are normalized from extracted text. The visual-page inventory inc
 | 3 | Figure | [Figure 1: Example dissection of SISO-J Signal PDU containing J2.2 PPLI message.](00-complete-paper-pages-001-004.md#source-pdf-page-3) |
 | 3 | Table | [Table 1: Typical SISO-J protocol stack.](00-complete-paper-pages-001-004.md#source-pdf-page-3) |
 | 3 | Table | [Table 2: Typical SIMPLE Link 16 protocol stack.](00-complete-paper-pages-001-004.md#source-pdf-page-3) |
-| 3 | Figure | [Figure 1 shows the main window of Wireshark. This](00-complete-paper-pages-001-004.md#source-pdf-page-3) |
 
 ## Pages with embedded images or inferred visual layout
 

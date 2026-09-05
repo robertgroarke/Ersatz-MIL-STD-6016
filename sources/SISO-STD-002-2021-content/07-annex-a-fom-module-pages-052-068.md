@@ -348,11 +348,8 @@ General introduction:  The lexicon tables provides a means to define all object 
 
 ### A.13 Interaction Class Definition Table
 
-General introduction:  The lexicon tables provides a means to define all object classes, interaction clas ses, object class attributes, and interaction parameters to achieve a common understanding of the semantics of the data. The interaction class definition
+General introduction:  The lexicon tables provides a means to define all object classes, interaction clas ses, object class attributes, and interaction parameters to achieve a common understanding of the semantics of the data. The interaction class definition table describes the interactions. For detailed information on the table format, see Reference 6.
 
-### table describes the interactions.
-
-- `For detailed information on the table format, see Reference 6.`
 ### Table A-11: Interaction Class Definition Table
 
 - `Class Definition`

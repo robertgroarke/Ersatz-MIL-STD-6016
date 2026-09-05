@@ -47,7 +47,7 @@ The RPR FOM defines four interaction classes, one for each of the encoding class
 - `for the values to be set.`
 ### B.2.1 Link 16 Common Data
 
-### Table B-2 shows the translations of the DIS Signal PDU field s to the corresponding RPR FOM and Link
+Table B-2 shows the translations of the DIS Signal PDU field s to the corresponding RPR FOM and Link
 
 ### 16 FOM module interaction class parameters common to each of the Link 16 Message Type  Identifiers.
 
@@ -106,16 +106,7 @@ Link16RadioSignal SISOSTD002Version
 
 ### 64 Perceived Transmit Time PerceivedTransmitTime
 
-≥ 48 Link 16 Message data See sections B.2.2 to B.2.9 0-31 Padding (if needed) Padding in the highest 0-7 bits of the last array element (if needed)
-
-### Table B -3 provides another perspective of the fields of the Link 16 Simulation Network Header in the
-
-- `Signal PDU Data field. The Link 16 Simulation Network Header occupies the first 160 bits, 20 octets, of`
-- `the Data field. The lines below the DIS Data display the m apping of these bits/octets to the`
-
-
-
-
+≥ 48 Link 16 Message data See sections B.2.2 to B.2.9 0-31 Padding (if needed) Padding in the highest 0-7 bits of the last array element (if needed) Table B -3 provides another perspective of the fields of the Link 16 Simulation Network Header in the Signal PDU Data field. The Link 16 Simulation Network Header occupies the first 160 bits, 20 octets, of the Data field. The lines below the DIS Data display the m apping of these bits/octets to the
 
 ### 3 Data Length is NOT mapped to SignalDataLength as the RawBinaryRadioSignal parameter SignalData
 
@@ -210,11 +201,7 @@ DIS Data octet #16 Data octet #17 Data octet #18 Data octet #19 Bit # 31 30 29 2
 
 ### B.2.2 JTIDS Header/Messages
 
-### Table B-4 shows the translations of the remainder of the DIS Signal PDU Data field to the corresponding
-
-- `Link 16 FOM module interaction class parameters for the Message Type Identifier JTIDS`
-- `Header/Messages. The Link 16 FOM module splits the Link 16 Message data across two parameters of`
-- `the JTIDSMessageRadioSignal class: JTIDSHeader and TADILJMessage.`
+Table B-4 shows the translations of the remainder of the DIS Signal PDU Data field to the corresponding Link 16 FOM module interaction class parameters for the Message Type Identifier JTIDS Header/Messages. The Link 16 FOM module splits the Link 16 Message data across two parameters of the JTIDSMessageRadioSignal class: JTIDSHeader and TADILJMessage.
 
 <a id="source-pdf-page-73"></a>
 
@@ -320,16 +307,8 @@ Indicator
 
 ### 5 Data Field Padding
 
-0/16 Signal PDU Padding (if needed) N/A
+0/16 Signal PDU Padding (if needed) N/A Table B-5 provides another perspective of the fields of the Link 16 Message data for the Message Type Identifier JTIDS Heade r/Messages in the Signal PDU Data field. Table B -5 illustrates the mapping between the content of the real Link 16 data, the DIS Signal PDU Data field, and the equivalent HLA interaction parameters. The same generic example as in  Table B-4 is used, up to the 4th J -Word (2nd J- Message, Initial Word). As the Link 16 Message data follows the Link 16 Simulation Network Header, the Signal PDU Data starts at Bit #160 (Data octet #20). The lines below the DIS Data display the mapping of these bits/octets to the array elements of the JTIDSMessageRadioSignal interaction parameters. The first
 
-### Table B-5 provides another perspective of the fields of the Link 16 Message data for the Message Type
-
-- `Identifier JTIDS Heade r/Messages in the Signal PDU Data field. Table B -5 illustrates the mapping`
-- `between the content of the real Link 16 data, the DIS Signal PDU Data field, and the equivalent HLA`
-- `interaction parameters. The same generic example as in  Table B-4 is used, up to the 4th J -Word (2nd J-`
-- `Message, Initial Word). As the Link 16 Message data follows the Link 16 Simulation Network Header, the`
-- `Signal PDU Data starts at Bit #160 (Data octet #20). The lines below the DIS Data display the mapping of`
-- `these bits/octets to the array elements of the JTIDSMessageRadioSignal interaction parameters. The first`
 ### 6 octets of the Link 16 Message data (Signal PDU Data octets #20 -25) are to be published in the
 
 JTIDSHeader para meter, a fixed array of 6 octets. Each of the subsequent J -Words, each 80 bits, 10 octets, in size, is to be published as an element of the TADILJMessage parameter. As each element of the TADILJMessage dynamic array is a fixed array of 10 octets, the resul t is a two-dimensional array with the first index indicating the J -Word number and the second index indicating the octet within the J - Message.
@@ -394,10 +373,7 @@ Bit #       74 73 72 71 70 69 68 67 66 65 64 Padding Parity Information fields (
 
 ### B.2.3 RTT A/B
 
-### Table B-6 shows the translations of the remainder of the DIS Signal PDU Data field to the corresponding
-
-- `Link 16 FOM module interaction class parameters for the Message Type Identifier RTT A/B. In the Link 16`
-- `FOM module the data is captured in the RTTABRadioSignal parameter RTTAB.`
+Table B-6 shows the translations of the remainder of the DIS Signal PDU Data field to the corresponding Link 16 FOM module interaction class parameters for the Message Type Identifier RTT A/B. In the Link 16 FOM module the data is captured in the RTTABRadioSignal parameter RTTAB.
 
 <a id="source-pdf-page-77"></a>
 
@@ -409,8 +385,7 @@ Link 16 Simulation Copyright © 2021 SISO. All rights reserved. Page 77 of 90 Th
 
 ### Table B-6: RTT A/B to RTTABRadioSignal Mapping
 
-### Table B-7 provides another perspective of the fields of the Link 16 Message data for the Message Type
-
+- `Table B-7 provides another perspective of the fields of the Link 16 Message data for the Message Type`
 - `Identifier RTT A/B in the Signal PDU Data field.`
 - `As the Link 16 Message data follows the Link 16 Simulation Network Header, the Signal PDU Data starts`
 - `at Bit #160 (Data octet #20). The lines below the DIS Data display the mapping of these bits/octets to the`
@@ -432,9 +407,8 @@ Bit #               34 33 32 Padding SDUSN (cont’d) Bit #                 207 
 
 ### B.2.4 RTT Reply
 
-### Table B-8 shows the translations of the remainder of the DIS Signal PDU Data field to the corresponding
+Table B-8 shows the translations of the remainder of the DIS Signal PDU Data field to the corresponding Link 16 FOM module interaction class parameters for the Message Type Identifier RTT Reply. In the Link
 
-- `Link 16 FOM module interaction class parameters for the Message Type Identifier RTT Reply. In the Link`
 ### 16 FOM module the data is captured in the RTTReplyRadioSignal parameter RTTReply.
 
 Signal PDU fields HLA interaction Size (bits)  Class Parameter 160 Data Link 16 Simulation Network Header See section B.2.1 48 3 Link 16 Message data
@@ -469,8 +443,7 @@ Link 16 Simulation Copyright © 2021 SISO. All rights reserved. Page 78 of 90 Th
 
 ### Table B-8: RTT Reply to RTTReplyRadioSignal Mapping
 
-### Table B-9 provides another perspective of the fields of the Link 16 Message data for the Message Type
-
+- `Table B-9 provides another perspective of the fields of the Link 16 Message data for the Message Type`
 - `Identifier RTT Reply in the Signal PDU Data field. As the Link 16 Message data fo llows the Link 16`
 - `Simulation Network Header, the Signal PDU Data starts at Bit #160 (Data octet #20). The lines below the`
 - `DIS Data display the mapping of these bits/octets to the array elements of the RTTReplyRadioSignal`
@@ -493,25 +466,8 @@ Link 16 Simulation Copyright © 2021 SISO. All rights reserved. Page 78 of 90 Th
 - `HLA  RTTReply[5] RTTReply[4]`
 ### B.2.5 JTIDS Voice CVSD
 
-### Table B-10 shows the translations of the field Data Length and remainder of the DIS Signal PDU Data
+Table B-10 shows the translations of the field Data Length and remainder of the DIS Signal PDU Data field to the corresponding Link 16 FOM module interaction class parameters for the Message Type Identifier JTIDS Voice CVSD. The Link 16 FOM module splits the Link 16 Message data across two parameters of the JTIDSVoiceCVSDRadioSignal class: JTIDSHeader and Data. Signal PDU fields HLA interaction Size (bits)  Class Parameter 160 Data Link 16 Simulation Network Header See section B.2.1 48 19 Link 16 Message data RTT Reply Time of Arrival RTTReplyRadioSignal RTTReply 16 Secure Data Unit Serial Number
 
-- `field to the corresponding Link 16 FOM module interaction class parameters for the Message Type`
-- `Identifier JTIDS Voice CVSD. The Link 16 FOM module splits the Link 16 Message data across two`
-- `parameters of the JTIDSVoiceCVSDRadioSignal class: JTIDSHeader and Data.`
-- `Signal PDU fields HLA interaction`
-- `Size`
-- `(bits)  Class Parameter`
-- `160`
-- `Data`
-- `Link 16 Simulation Network Header See section B.2.1`
-- `48`
-- `19`
-- `Link 16`
-- `Message data`
-- `RTT Reply`
-- `Time of Arrival`
-- `RTTReplyRadioSignal RTTReply 16 Secure Data Unit`
-- `Serial Number`
 ### 13 Padding
 
 ### 16 Padding N/A
@@ -526,8 +482,7 @@ Link 16 Simulation Copyright © 2021 SISO. All rights reserved. Page 79 of 90 Th
 
 ### Table B-10: JTIDS Voice CVSD to JTIDSVoiceCVSDRadioSignal Mapping
 
-### Table B-11 provides another perspective of the fields of the Link 16 Message data for the JT IDS Voice
-
+- `Table B-11 provides another perspective of the fields of the Link 16 Message data for the JT IDS Voice`
 - `Message Type Identifiers in the Signal PDU Data field. As the Link 16 Message data follows the Link 16`
 - `Simulation Network Header, the Signal PDU Data starts at Bit #160 (Data octet #20). The lines below the`
 - `DIS Data display the mapping of these b its/octets to the array elements of the interaction class`
@@ -621,11 +576,7 @@ Data[28] Data[27] Data[26] Padding
 
 ### B.2.6 JTIDS Voice LPC10
 
-### Table B-12 shows the translations field Data L ength and of the remainder of the DIS Signal PDU Data
-
-- `field to the corresponding Link 16 FOM module interaction class parameters for the Message Type`
-- `Identifier JTIDS Voice LPC10. The Link 16 FOM module splits the Link 16 Message data across two`
-- `parameters of the JTIDSVoiceLPC10RadioSignal class: JTIDSHeader and Data.`
+Table B-12 shows the translations field Data L ength and of the remainder of the DIS Signal PDU Data field to the corresponding Link 16 FOM module interaction class parameters for the Message Type Identifier JTIDS Voice LPC10. The Link 16 FOM module splits the Link 16 Message data across two parameters of the JTIDSVoiceLPC10RadioSignal class: JTIDSHeader and Data.
 
 <a id="source-pdf-page-81"></a>
 
@@ -642,15 +593,7 @@ Link 16 Simulation Copyright © 2021 SISO. All rights reserved. Page 81 of 90 Th
 - `Identifier JTIDS Voice LPC10.`
 ### B.2.7 JTIDS Voice LPC12
 
-### Table B-13 shows the translations field Data Length and of the remainder of the DIS Signal PDU Data
-
-- `field to the corresponding Link 16 FOM module interaction class parameters for the Messa ge Type`
-- `Identifier JTIDS Voice LPC12. The Link 16 FOM module splits the Link 16 Message data across two`
-- `parameters of the JTIDSVoiceLPC12RadioSignal class: JTIDSHeader and Data.`
-
-
-
-
+Table B-13 shows the translations field Data Length and of the remainder of the DIS Signal PDU Data field to the corresponding Link 16 FOM module interaction class parameters for the Messa ge Type Identifier JTIDS Voice LPC12. The Link 16 FOM module splits the Link 16 Message data across two parameters of the JTIDSVoiceLPC12RadioSignal class: JTIDSHeader and Data.
 
 ### 5 Note that the HLA parameter DataLength contains the length (in bits) of the encoded voice in the HLA
 
@@ -695,9 +638,8 @@ Link 16 Simulation Copyright © 2021 SISO. All rights reserved. Page 82 of 90 Th
 - `Identifier JTIDS Voice LPC12.`
 ### B.2.8 JTIDS LET
 
-### Table B-14 shows the translations of the remainder of the DIS Signal PDU Data fiel d to the corresponding
+Table B-14 shows the translations of the remainder of the DIS Signal PDU Data fiel d to the corresponding Link 16 FOM module interaction class parameters for the Message Type Identifier JTIDS LET. The Link
 
-- `Link 16 FOM module interaction class parameters for the Message Type Identifier JTIDS LET. The Link`
 ### 16 FOM module splits the Link 16 Message data across two parameters of the JTIDSLETRadioSignal
 
 class: LETHeader and TADILJMessage. Note that Table B-14 provides an example of a JTIDS LET message with just one J -Word. See section
@@ -796,20 +738,7 @@ Indicator
 
 ### 5 Padding
 
-0/16 Padding (if needed) N/A
-
-### Table B-15 provides another perspective of the fields of the Link 16 Message data for the Message Type
-
-- `Identifier JTIDS LET in the Signal PDU Data field. Just as in  Table B-14, only one J -Word is included. As`
-- `the Link 16 Message data follows the Link 16 Simulation Network Header, the Signal PDU Data starts at`
-- `Bit #160 (Data octet # 20). The lines below the DIS Data display the mapping of these bits/octets to the`
-- `array elements of the JTIDSLETRadioSignal interaction par ameters. The first 6 octets of the Link 16`
-- `Message data (Signal PDU Data octets #20 -25) are to be published in the LETHeader parameter, a fixed`
-- `array of 6 octets. Each of the subsequent J -Words, each 80 bits, 10 octets, in size, is to be published as`
-- `an element of the TADILJMessage parameter. As each element of the TADILJMessage dynamic array is`
-- `a fixed array of 10 octets, the result is a two -dimensional array with the first index indicating the J -Word`
-- `number and the second index indicating the octet within  the J-Message. See Table B-5 for an example`
-- `with multiple J-Words.`
+0/16 Padding (if needed) N/A Table B-15 provides another perspective of the fields of the Link 16 Message data for the Message Type Identifier JTIDS LET in the Signal PDU Data field. Just as in  Table B-14, only one J -Word is included. As the Link 16 Message data follows the Link 16 Simulation Network Header, the Signal PDU Data starts at Bit #160 (Data octet # 20). The lines below the DIS Data display the mapping of these bits/octets to the array elements of the JTIDSLETRadioSignal interaction par ameters. The first 6 octets of the Link 16 Message data (Signal PDU Data octets #20 -25) are to be published in the LETHeader parameter, a fixed array of 6 octets. Each of the subsequent J -Words, each 80 bits, 10 octets, in size, is to be published as an element of the TADILJMessage parameter. As each element of the TADILJMessage dynamic array is a fixed array of 10 octets, the result is a two -dimensional array with the first index indicating the J -Word number and the second index indicating the octet within  the J-Message. See Table B-5 for an example with multiple J-Words.
 
 <a id="source-pdf-page-84"></a>
 
@@ -837,17 +766,7 @@ Bit #      74 73 72 71 70 69 68 67 66 65 64 63 62 61 60 59 58 57 56 55 54 53 52 
 
 ### B.2.9 VMF
 
-### Table B-16 shows the translations of the remainder of the DIS Signal PDU Data field to the corresponding
-
-- `Link 16 FOM module interaction class parameters for the Message Type Identifier VMF. The Link 16 FOM`
-- `module splits the Link 16 Message data across two parameters of the VMFRadioSignal class :`
-- `JTIDSHeader and MessageData.`
-- `Note that Table B -16 provides a generic example for VMF messages. As the payload of the VMF`
-- `messages is not part of the Link 16 standard, one or more VMF messages may be needed to constitute`
-- `one complete message in the payload protocol. Similarly, it may be that (parts of) multiple messages in`
-- `the payload protocol are present within one VMF message (not sho wn in the example). The example`
-- `shows that following the Link 16 Header Word (padded to 48 bits), the Data field contains one or more`
-- `Link 16 words containing the VMF message data (padded to 80 bits).`
+Table B-16 shows the translations of the remainder of the DIS Signal PDU Data field to the corresponding Link 16 FOM module interaction class parameters for the Message Type Identifier VMF. The Link 16 FOM module splits the Link 16 Message data across two parameters of the VMFRadioSignal class : JTIDSHeader and MessageData. Note that Table B -16 provides a generic example for VMF messages. As the payload of the VMF messages is not part of the Link 16 standard, one or more VMF messages may be needed to constitute one complete message in the payload protocol. Similarly, it may be that (parts of) multiple messages in the payload protocol are present within one VMF message (not sho wn in the example). The example shows that following the Link 16 Header Word (padded to 48 bits), the Data field contains one or more Link 16 words containing the VMF message data (padded to 80 bits).
 
 <a id="source-pdf-page-85"></a>
 
@@ -933,20 +852,8 @@ Serial Number
 
 ### SISO-STD-002-2021
 
-Link 16 Simulation Copyright © 2021 SISO. All rights reserved. Page 86 of 90 This is an approved SISO Standard.
+Link 16 Simulation Copyright © 2021 SISO. All rights reserved. Page 86 of 90 This is an approved SISO Standard. Table B-17 provides another perspective of the fields of the Link 16 Message data for the Message Type Identifier VMF in the Signal PDU  Data field. The same generic example as in  Table B-16 is used, up to the 4th Link 16 word . As the Link 16 Message data follows the Link 16 Simulation Network Header, the Signal PDU Data starts at Bit #160 (Data octet #20). The lines below the DIS Data display the mapping of these bits/octets to the array elements of the VMFRadioSignal interaction parameters. The first 6 octets of the Link 16 Message data (Signal PDU Data octets #20 -25) are to be published in the JTIDSHeader parameter, a fixed array of 6 octets. Each of the subsequent Link 16 words , each 80 bits, 10 octets, in size, is to be published as an element of the MessageData parameter. As each element of the MessageData dynamic array is a fixed array of 10 octets, the result  is a two -dimensional array with the first index indicating the Link 16 word number and the second index indicating the octet within the Link 16 word.
 
-### Table B-17 provides another perspective of the fields of the Link 16 Message data for the Message Type
-
-- `Identifier VMF in the Signal PDU  Data field. The same generic example as in  Table B-16 is used, up to`
-- `the 4th Link 16 word . As the Link 16 Message data follows the Link 16 Simulation Network Header, the`
-- `Signal PDU Data starts at Bit #160 (Data octet #20). The lines below the DIS Data display the mapping of`
-- `these bits/octets to the array elements of the VMFRadioSignal interaction parameters. The first 6 octets of`
-- `the Link 16 Message data (Signal PDU Data octets #20 -25) are to be published in the JTIDSHeader`
-- `parameter, a fixed array of 6 octets. Each of the subsequent Link 16 words , each 80 bits, 10 octets, in`
-- `size, is to be published as an element of the MessageData parameter. As each element of the`
-- `MessageData dynamic array is a fixed array of 10 octets, the result  is a two -dimensional array with the`
-- `first index indicating the Link 16 word number and the second index indicating the octet within the Link 16`
-- `word.`
 ### Table B-17: Link 16 Message Data for VMF
 
 - `Bit # 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0`

@@ -20,30 +20,11 @@ A is the length of the Antenna Pattern record in octets, which must be a multipl
 
 ### 4.2.2 Signal PDU
 
-### Table 7 shows the format and values of the Signal PDU for Link 16 simulation.
+Table 7 shows the format and values of the Signal PDU for Link 16 simulation. Signal PDUs used in Link 16 simulation shall comply with requirements established in References 4 and
 
-- `Signal PDUs used in Link 16 simulation shall comply with requirements established in References 4 and`
 ### 3 and the following requirements:
 
-1. Encoding Scheme. Bits 0-13 of this field shall contain the number of Link 16 words for JTIDS Header/Message, JTIDS LET, and JTIDS VMF message types, or shall contain the value 1 for RTT and JTIDS Voice message ty pes. Bits 14-15 shall contain the value 1 to indicate an Encoding Class of Raw Binary Data IAW Reference 3 [UID 270]. 2. TDL Type. This field shall specify the TDL type as a 16 -bit enumeration field, and shall be set to 100 for Lin k 16 Standardized Format (JTIDS/MIDS/TADIL J) IAW Reference 3 [UID 178]. TDL Type value Link 16 Surrogate for Non -NATO TDL (113) may also be used when simulating a non-NATO tactical data link. 3. Sample Rate. The sample rate shall be set to 0. 4. Data Length. This field shall contain the number of bits in the Data field . The Data field may end on a non-byte boundary, i.e., the length is not required to be a multiple of 8. Padding that follows the Data field to end the PDU on a 32 -bit boundary shall not be included in the Data Length. Padding bits at the end of Link 16 Message Data as specified in Table 9 through
-
-### Table 16 are considered part of the Data field and shall be included in Data  Length. The Data
-
-- `Length field shall be represented by a 16-bit unsigned integer.`
-- `5. Samples. This field shall be set to 0.`
-- `6. Data. For Link 16 , the Data field shall consist of two parts, a Link 16 Simulation Network`
-- `Header portion and a Link 16 Message Data po rtion as shown in  Table 7 and described`
-- `below.`
-- `A. Link 16 Simulation Network Header. The Link 16 Simulation Network Header portion of`
-- `the Signal PDU Data field shall be 160 bits long and shall use the same byte order as the`
-- `Signal PDU. These fields are shown in Table 8, and shall be set as follows:`
-- `i. NPG Number . This field is a 16 -bit unsigned integer (0 -511) used to segregate`
-- `information within a JTIDS/MIDS network. It creates virtual networks of participants.`
-- `ii. Net Number. This field is an 8-bit unsigned integer (0-127) used to create virtual sub-`
-- `circuits within NPG for stacked nets or between NPGs for multi-net operations.`
-- `iii. TSEC CVLL . This field is an 8 -bit unsigned integer that is used for transmission`
-- `security and allows for simulated crypto netting. For TSA Levels 0-2 this field shall be`
-- `set to 255 (all bits set to one) indicating a no statement/wildcard.`
+1. Encoding Scheme. Bits 0-13 of this field shall contain the number of Link 16 words for JTIDS Header/Message, JTIDS LET, and JTIDS VMF message types, or shall contain the value 1 for RTT and JTIDS Voice message ty pes. Bits 14-15 shall contain the value 1 to indicate an Encoding Class of Raw Binary Data IAW Reference 3 [UID 270]. 2. TDL Type. This field shall specify the TDL type as a 16 -bit enumeration field, and shall be set to 100 for Lin k 16 Standardized Format (JTIDS/MIDS/TADIL J) IAW Reference 3 [UID 178]. TDL Type value Link 16 Surrogate for Non -NATO TDL (113) may also be used when simulating a non-NATO tactical data link. 3. Sample Rate. The sample rate shall be set to 0. 4. Data Length. This field shall contain the number of bits in the Data field . The Data field may end on a non-byte boundary, i.e., the length is not required to be a multiple of 8. Padding that follows the Data field to end the PDU on a 32 -bit boundary shall not be included in the Data Length. Padding bits at the end of Link 16 Message Data as specified in Table 9 through Table 16 are considered part of the Data field and shall be included in Data  Length. The Data Length field shall be represented by a 16-bit unsigned integer. 5. Samples. This field shall be set to 0. 6. Data. For Link 16 , the Data field shall consist of two parts, a Link 16 Simulation Network Header portion and a Link 16 Message Data po rtion as shown in  Table 7 and described below. A. Link 16 Simulation Network Header. The Link 16 Simulation Network Header portion of the Signal PDU Data field shall be 160 bits long and shall use the same byte order as the Signal PDU. These fields are shown in Table 8, and shall be set as follows: i. NPG Number . This field is a 16 -bit unsigned integer (0 -511) used to segregate information within a JTIDS/MIDS network. It creates virtual networks of participants. ii. Net Number. This field is an 8-bit unsigned integer (0-127) used to create virtual subcircuits within NPG for stacked nets or between NPGs for multi-net operations. iii. TSEC CVLL . This field is an 8 -bit unsigned integer that is used for transmission security and allows for simulated crypto netting. For TSA Levels 0-2 this field shall be set to 255 (all bits set to one) indicating a no statement/wildcard.
 
 <a id="source-pdf-page-35"></a>
 
@@ -51,11 +32,8 @@ A is the length of the Antenna Pattern record in octets, which must be a multipl
 
 ### SISO-STD-002-2021
 
-Link 16 Simulation Copyright © 2021 SISO. All rights reserved. Page 35 of 90 This is an approved SISO Standard. iv. MSEC CVLL. This field is an 8 -bit unsigned integer that is used for message security in conjunction with the  TSEC CVLL and allows for simulated crypto netting. For TSA Levels 0-2 this field shall be set to 255 (all bits set to one) indicating a no statement/wildcard. v. Message Type Identifier . This field shall specify the format for the type of Link 16 message in the PDU. This field shall be set with an enumeration in accordance with
+Link 16 Simulation Copyright © 2021 SISO. All rights reserved. Page 35 of 90 This is an approved SISO Standard. iv. MSEC CVLL. This field is an 8 -bit unsigned integer that is used for message security in conjunction with the  TSEC CVLL and allows for simulated crypto netting. For TSA Levels 0-2 this field shall be set to 255 (all bits set to one) indicating a no statement/wildcard. v. Message Type Identifier . This field shall specify the format for the type of Link 16 message in the PDU. This field shall be set with an enumeration in accordance with Table 6 and Reference 3 [UID 176]. The message type formats are described in detail in Table 9 through Table 16.
 
-### Table 6 and Reference 3 [UID 176]. The message type formats are described in
-
-- `detail in Table 9 through Table 16.`
 ### Table 6: Message Type Identifier
 
 - `Message Type Identifier Enumeration`
@@ -132,27 +110,13 @@ Header  See Table 8.
 
 ### SISO-STD-002-2021
 
-Link 16 Simulation Copyright © 2021 SISO. All rights reserved. Page 37 of 90 This is an approved SISO Standard. Field Size (bits) Signal PDU Fields Value K-160 Link 16 Message Data Bit stream The Link 16 message data, corresponding to the message type specified in the Message Type Identifier field and described in
+Link 16 Simulation Copyright © 2021 SISO. All rights reserved. Page 37 of 90 This is an approved SISO Standard. Field Size (bits) Signal PDU Fields Value K-160 Link 16 Message Data Bit stream The Link 16 message data, corresponding to the message type specified in the Message Type Identifier field and described in Table 9 through Table 16. End of Data field P Padding Padding to 32-bit boundary Total Link 16 Signal PDU size = 256 + K + P bits
 
-### Table 9 through Table 16.
+where
 
-- `End of Data field`
-- `P Padding Padding to 32-bit`
-- `boundary`
-- `Total Link 16 Signal PDU size = 256 + K + P bits`
+K is the length of the Data field in bits P is the number of padding bits, which is ⌈K/32⌉32 - K ⌈x⌉ is the largest integer < x+1
 
-- `where`
-
-- `K is the length of the Data field in bits`
-- `P is the number of padding bits, which is ⌈K/32⌉32 - K`
-- `⌈x⌉ is the largest integer < x+1`
-
-- `Note:`
-- `P = 16 for Message Type Identifiers 1 and 2`
-- `P = 16 for Message Type Identifiers 0, 6, and 7 if the number of J Words is even`
-- `P = 0 for Message Type Identifiers 0, 6, and 7 if the number of J Words is odd`
-- `For Message Type Identifiers 3, 4, and 5, P will vary between 0 and 31 depending on the length of the`
-- `JTIDS Free Text Voice Data`
+Note: P = 16 for Message Type Identifiers 1 and 2 P = 16 for Message Type Identifiers 0, 6, and 7 if the number of J Words is even P = 0 for Message Type Identifiers 0, 6, and 7 if the number of J Words is odd For Message Type Identifiers 3, 4, and 5, P will vary between 0 and 31 depending on the length of the JTIDS Free Text Voice Data
 
 <a id="source-pdf-page-38"></a>
 
@@ -388,11 +352,8 @@ Word Format 2 Bits [7, 8]. W is the number of J Words in the Signal PDU. VMF Mes
 
 Parity 5 Bits [7, 8] Padding 5 bits
 
-### Table 17 below depicts the Signal PDU Data field , showing the Link 16 Simulation Network Header in
+Table 17 below depicts the Signal PDU Data field , showing the Link 16 Simulation Network Header in yellow (for DIS versions that use big endian octet ordering)  followed by a Link 16 Fixed Format Message (Message Type  Identifier 0). Note that the displayed octet ordering switches after octet 19  due to the change from octet-oriented data to bit stream data.
 
-- `yellow (for DIS versions that use big endian octet ordering)  followed by a Link 16 Fixed Format Message`
-- `(Message Type  Identifier 0). Note that the displayed octet ordering switches after octet 19  due to the`
-- `change from octet-oriented data to bit stream data.`
 ### Table 17: Signal PDU Data field with Link 16 Simulation Network Header and Fixed Format Message
 
 - `Octet 0 Octet 1`

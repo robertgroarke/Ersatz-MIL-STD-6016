@@ -20,7 +20,7 @@ This section contains the requirements for simulation of Link 16 using the DIS T
 
 ### 4.2.1 Transmitter PDU
 
-### Table 5 shows the format and values of the Transmitter PDU for Link 16 simulation.
+Table 5 shows the format and values of the Transmitter PDU for Link 16 simulation.
 
 <a id="source-pdf-page-30"></a>
 

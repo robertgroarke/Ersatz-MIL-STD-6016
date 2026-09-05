@@ -22,10 +22,7 @@ vi
 
 ## Source PDF page 13
 
-vii List of Tables
-
-### Table Page
-
+vii List of Tables Table Page
 
 ### 2.1 Link-16 Data Ra te Comparison.........................................................................................2-18
 
@@ -149,9 +146,7 @@ This chapter examines the increasing need for Information Assurance (IA) within 
 
 ### 2.2 Scenario
 
-### Figure 2.1 shows a scenario in the proposed Joint Battlespace Infosphere (JBI) [SAB99].
-
-The JBI is made up of a complex, heterogeneous system of systems with globally distributed fixed
+Figure 2.1 shows a scenario in the proposed Joint Battlespace Infosphere (JBI) [SAB99]. The JBI is made up of a complex, heterogeneous system of systems with globally distributed fixed
 
 <a id="source-pdf-page-21"></a>
 
@@ -181,11 +176,7 @@ JBI Fusion Engine JBI Server Network Infrastructure - Military & Commercial
 
 ## Source PDF page 22
 
-2-3 Simultaneously, in the same theatre of opera tions, an Unmanned Air Vehicle (UAV) detects a Surface-to-Air Missile (SAM) and transmits this data to the JBI mission servers via Satellite Communication (SATCOM).  Since SAMs are a high priority target, Air Command decides to reroute the F-15E flight to take out the SAM.  Using JBI, Air Command directs the AWACS and F-15E to change the mission to intercept the SAM target.  The F-15E on-board JBI client receives an Air Tasking Order (ATO) change alert.  The AWACS operator and lead Weapons System Officer (WSO) review the ATO alert for additional info.  The F-15E acknowledges the new ATO and diverts to the new target. In this notional scenario there are many simultaneous communications occurring between fighter aircraft, AWACS, UAVs, satellites, JBI servers, and the Air Operations Centers (AOC), using various data formats, each encompassing their own security measures.  It is problematic to insert data security into data communications due to the additional overhead that comes along with the added security.  This is especially true for older generation aircraft with limited communications bandwidth.  Yet, IA measures are needed to protect communication systems, data integrity, data confidentiality, data availability, and provide proper authentication and authorization measures.
-
-### Figure 2.2 shows an established F-15E—JBI communications link.  Prior to the F-15E
-
-departure, the Link-16 network is configured to allow communication among the F-15Es, the AWACS controller aircraft and the ground-based AOC JBI Server Gateway.  Once the connectivity between the on-board JBI client and ground-based JBI server is established, communication data is transferred via flight “Cups”, or objects whose implementation consists of a
+2-3 Simultaneously, in the same theatre of opera tions, an Unmanned Air Vehicle (UAV) detects a Surface-to-Air Missile (SAM) and transmits this data to the JBI mission servers via Satellite Communication (SATCOM).  Since SAMs are a high priority target, Air Command decides to reroute the F-15E flight to take out the SAM.  Using JBI, Air Command directs the AWACS and F-15E to change the mission to intercept the SAM target.  The F-15E on-board JBI client receives an Air Tasking Order (ATO) change alert.  The AWACS operator and lead Weapons System Officer (WSO) review the ATO alert for additional info.  The F-15E acknowledges the new ATO and diverts to the new target. In this notional scenario there are many simultaneous communications occurring between fighter aircraft, AWACS, UAVs, satellites, JBI servers, and the Air Operations Centers (AOC), using various data formats, each encompassing their own security measures.  It is problematic to insert data security into data communications due to the additional overhead that comes along with the added security.  This is especially true for older generation aircraft with limited communications bandwidth.  Yet, IA measures are needed to protect communication systems, data integrity, data confidentiality, data availability, and provide proper authentication and authorization measures. Figure 2.2 shows an established F-15E—JBI communications link.  Prior to the F-15E departure, the Link-16 network is configured to allow communication among the F-15Es, the AWACS controller aircraft and the ground-based AOC JBI Server Gateway.  Once the connectivity between the on-board JBI client and ground-based JBI server is established, communication data is transferred via flight “Cups”, or objects whose implementation consists of a
 
 <a id="source-pdf-page-23"></a>
 
@@ -193,11 +184,7 @@ departure, the Link-16 network is configured to allow communication among the F-
 
 2-4
 
-CORBA object that provides services such as write and read to other objects.  A CORBA object is defined as an identifiable, encapsulated entity that provides one or more services that can be requested by a client [TaV02].  Access to the Cup’s services is typically restricted to objects that possess proper authorization rights.
-
-### Figure 2.3 shows the JBI Server Gateway that  includes the JBI Server application and it’s
-
-related databases and associated collaboration applications.  The above mentioned “Cup” or mission fuselet resides on the JBI Server.  In this scenario, CORBA serves as the distributed object JBI Server Gateway
+CORBA object that provides services such as write and read to other objects.  A CORBA object is defined as an identifiable, encapsulated entity that provides one or more services that can be requested by a client [TaV02].  Access to the Cup’s services is typically restricted to objects that possess proper authorization rights. Figure 2.3 shows the JBI Server Gateway that  includes the JBI Server application and it’s related databases and associated collaboration applications.  The above mentioned “Cup” or mission fuselet resides on the JBI Server.  In this scenario, CORBA serves as the distributed object JBI Server Gateway
 
 ### AWACS
 

@@ -102,9 +102,7 @@ Link 16 Simulation Copyright © 2021 SISO. All rights reserved. Page 6 of 90 Thi
 
 ### SISO-STD-002-2021
 
-Link 16 Simulation Copyright © 2021 SISO. All rights reserved. Page 7 of 90 This is an approved SISO Standard.
-
-### Table of Contents
+Link 16 Simulation Copyright © 2021 SISO. All rights reserved. Page 7 of 90 This is an approved SISO Standard. Table of Contents
 
 ### 1 Overview ........................................................................................................................................ 12
 

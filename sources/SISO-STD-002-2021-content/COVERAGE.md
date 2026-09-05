@@ -8,7 +8,7 @@
 | 4 | [Front matter](00-front-matter-pages-001-011.md#source-pdf-page-4) | 1,295 | 192 | 0 | text extracted |
 | 5 | [Front matter](00-front-matter-pages-001-011.md#source-pdf-page-5) | 1,181 | 171 | 0 | text extracted |
 | 6 | [Front matter](00-front-matter-pages-001-011.md#source-pdf-page-6) | 1,133 | 174 | 0 | text extracted |
-| 7 | [Front matter](00-front-matter-pages-001-011.md#source-pdf-page-7) | 4,993 | 232 | 0 | text plus visual layout; inspect source rendering |
+| 7 | [Front matter](00-front-matter-pages-001-011.md#source-pdf-page-7) | 4,993 | 232 | 0 | text extracted |
 | 8 | [Front matter](00-front-matter-pages-001-011.md#source-pdf-page-8) | 5,163 | 281 | 0 | text extracted |
 | 9 | [Front matter](00-front-matter-pages-001-011.md#source-pdf-page-9) | 704 | 42 | 0 | text extracted |
 | 10 | [Front matter](00-front-matter-pages-001-011.md#source-pdf-page-10) | 4,911 | 361 | 0 | text plus visual layout; inspect source rendering |
@@ -30,15 +30,15 @@
 | 26 | [Requirements and operating characteristics](03-requirements-and-operating-characteristics-pages-020-028.md#source-pdf-page-26) | 3,114 | 487 | 0 | text plus visual layout; inspect source rendering |
 | 27 | [Requirements and operating characteristics](03-requirements-and-operating-characteristics-pages-020-028.md#source-pdf-page-27) | 3,944 | 612 | 0 | text extracted |
 | 28 | [Requirements and operating characteristics](03-requirements-and-operating-characteristics-pages-020-028.md#source-pdf-page-28) | 3,123 | 492 | 0 | text extracted |
-| 29 | [DIS Transmitter PDU](04-dis-transmitter-pdu-pages-029-033.md#source-pdf-page-29) | 3,947 | 655 | 0 | text plus visual layout; inspect source rendering |
+| 29 | [DIS Transmitter PDU](04-dis-transmitter-pdu-pages-029-033.md#source-pdf-page-29) | 3,947 | 655 | 0 | text extracted |
 | 30 | [DIS Transmitter PDU](04-dis-transmitter-pdu-pages-029-033.md#source-pdf-page-30) | 3,482 | 614 | 0 | text extracted |
 | 31 | [DIS Transmitter PDU](04-dis-transmitter-pdu-pages-029-033.md#source-pdf-page-31) | 2,622 | 418 | 0 | text plus visual layout; inspect source rendering |
 | 32 | [DIS Transmitter PDU](04-dis-transmitter-pdu-pages-029-033.md#source-pdf-page-32) | 1,313 | 197 | 0 | text extracted |
 | 33 | [DIS Transmitter PDU](04-dis-transmitter-pdu-pages-029-033.md#source-pdf-page-33) | 1,334 | 208 | 0 | text extracted |
-| 34 | [DIS Signal PDU and Link 16 data](05-dis-signal-pdu-and-link-16-data-pages-034-043.md#source-pdf-page-34) | 3,136 | 575 | 0 | text plus visual layout; inspect source rendering |
+| 34 | [DIS Signal PDU and Link 16 data](05-dis-signal-pdu-and-link-16-data-pages-034-043.md#source-pdf-page-34) | 3,136 | 575 | 0 | text extracted |
 | 35 | [DIS Signal PDU and Link 16 data](05-dis-signal-pdu-and-link-16-data-pages-034-043.md#source-pdf-page-35) | 3,033 | 553 | 0 | text plus visual layout; inspect source rendering |
 | 36 | [DIS Signal PDU and Link 16 data](05-dis-signal-pdu-and-link-16-data-pages-034-043.md#source-pdf-page-36) | 1,314 | 211 | 0 | text plus visual layout; inspect source rendering |
-| 37 | [DIS Signal PDU and Link 16 data](05-dis-signal-pdu-and-link-16-data-pages-034-043.md#source-pdf-page-37) | 943 | 188 | 0 | text plus visual layout; inspect source rendering |
+| 37 | [DIS Signal PDU and Link 16 data](05-dis-signal-pdu-and-link-16-data-pages-034-043.md#source-pdf-page-37) | 943 | 188 | 0 | text extracted |
 | 38 | [DIS Signal PDU and Link 16 data](05-dis-signal-pdu-and-link-16-data-pages-034-043.md#source-pdf-page-38) | 1,261 | 203 | 0 | text plus visual layout; inspect source rendering |
 | 39 | [DIS Signal PDU and Link 16 data](05-dis-signal-pdu-and-link-16-data-pages-034-043.md#source-pdf-page-39) | 1,085 | 215 | 0 | text plus visual layout; inspect source rendering |
 | 40 | [DIS Signal PDU and Link 16 data](05-dis-signal-pdu-and-link-16-data-pages-034-043.md#source-pdf-page-40) | 1,262 | 223 | 0 | text plus visual layout; inspect source rendering |
@@ -73,7 +73,7 @@
 | 69 | [Annex B - DIS-HLA translations](08-annex-b-dis-hla-translations-pages-069-088.md#source-pdf-page-69) | 2,950 | 478 | 0 | text plus visual layout; inspect source rendering |
 | 70 | [Annex B - DIS-HLA translations](08-annex-b-dis-hla-translations-pages-069-088.md#source-pdf-page-70) | 1,805 | 289 | 0 | text plus visual layout; inspect source rendering |
 | 71 | [Annex B - DIS-HLA translations](08-annex-b-dis-hla-translations-pages-069-088.md#source-pdf-page-71) | 1,374 | 329 | 4 | text plus visual layout; inspect source rendering |
-| 72 | [Annex B - DIS-HLA translations](08-annex-b-dis-hla-translations-pages-069-088.md#source-pdf-page-72) | 2,219 | 520 | 0 | text plus visual layout; inspect source rendering |
+| 72 | [Annex B - DIS-HLA translations](08-annex-b-dis-hla-translations-pages-069-088.md#source-pdf-page-72) | 2,219 | 520 | 0 | text extracted |
 | 73 | [Annex B - DIS-HLA translations](08-annex-b-dis-hla-translations-pages-069-088.md#source-pdf-page-73) | 1,416 | 234 | 0 | text plus visual layout; inspect source rendering |
 | 74 | [Annex B - DIS-HLA translations](08-annex-b-dis-hla-translations-pages-069-088.md#source-pdf-page-74) | 2,674 | 542 | 4 | text plus visual layout; inspect source rendering |
 | 75 | [Annex B - DIS-HLA translations](08-annex-b-dis-hla-translations-pages-069-088.md#source-pdf-page-75) | 3,081 | 761 | 7 | text plus visual layout; inspect source rendering |

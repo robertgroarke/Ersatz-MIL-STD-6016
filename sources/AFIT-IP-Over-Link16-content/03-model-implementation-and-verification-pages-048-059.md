@@ -135,11 +135,7 @@ This OPNET model was configured using the Link-16, Packed-2 packet format, wh
 
 4-3
 
-improved bit error rate calculation and add support for animation of the radio links.  The host-toterminal interface is represented as a duplex point-to-point link with zero delay.  Although it is not representative of the 1553 bus, the latency is factored into the Link-16 model. JTIDS scenarios require the terminal nodes and host computer pairs to be co-located in subnets for proper spatial movement.  This organization is imposed by OPNET because node models connected by physical links (as the terminal and host are by the dls_serial link) cannot be mobile.
-
-### Figure 4.2 shows the OPNET  host node model used to generate J-series messages, which
-
-are sent to the JTIDS terminal shown in Figure 4.3.
+improved bit error rate calculation and add support for animation of the radio links.  The host-toterminal interface is represented as a duplex point-to-point link with zero delay.  Although it is not representative of the 1553 bus, the latency is factored into the Link-16 model. JTIDS scenarios require the terminal nodes and host computer pairs to be co-located in subnets for proper spatial movement.  This organization is imposed by OPNET because node models connected by physical links (as the terminal and host are by the dls_serial link) cannot be mobile. Figure 4.2 shows the OPNET  host node model used to generate J-series messages, which are sent to the JTIDS terminal shown in Figure 4.3.
 
 ### Figure 4.2: dls_JTIDS_host  Node Model
 

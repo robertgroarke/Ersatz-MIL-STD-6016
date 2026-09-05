@@ -6,13 +6,7 @@ Captions below are normalized from extracted text. The visual-page inventory inc
 
 | Source PDF page | Kind | Extracted caption |
 | ---: | --- | --- |
-| 7 | Table | [Table of Contents](00-front-matter-pages-001-011.md#source-pdf-page-7) |
-| 11 | Figure | [Figure Page](00-front-matter-pages-001-011.md#source-pdf-page-11) |
-| 13 | Table | [Table Page](01-introduction-and-background-pages-012-034.md#source-pdf-page-13) |
-| 20 | Figure | [Figure 2.1 shows a scenario in the proposed Joint Battlespace Infosphere (JBI) [SAB99].](01-introduction-and-background-pages-012-034.md#source-pdf-page-20) |
 | 21 | Figure | [Figure 2.1: A Notional Deployed Joint Battlespace Infosphere](01-introduction-and-background-pages-012-034.md#source-pdf-page-21) |
-| 22 | Figure | [Figure 2.2 shows an established F-15E—JBI communications link. Prior to the F-15E](01-introduction-and-background-pages-012-034.md#source-pdf-page-22) |
-| 23 | Figure | [Figure 2.3 shows the JBI Server Gateway that includes the JBI Server application and it’s](01-introduction-and-background-pages-012-034.md#source-pdf-page-23) |
 | 23 | Figure | [Figure 2.2: Linking the F-15E Aircraft into the JBI](01-introduction-and-background-pages-012-034.md#source-pdf-page-23) |
 | 24 | Figure | [Figure 2.3: AOC Notional Hardware Architecture and JBI](01-introduction-and-background-pages-012-034.md#source-pdf-page-24) |
 | 33 | Figure | [Figure 2.4: Authentication Header (AH) Format](01-introduction-and-background-pages-012-034.md#source-pdf-page-33) |
@@ -22,7 +16,6 @@ Captions below are normalized from extracted text. The visual-page inventory inc
 | 46 | Figure | [Figure 3.1: F-15E JBI Connectivity Software Architecture [Ray01]](02-research-methodology-pages-035-047.md#source-pdf-page-46) |
 | 50 | Table | [Table 3.1: Workload Parameters](03-model-implementation-and-verification-pages-048-059.md#source-pdf-page-50) |
 | 53 | Figure | [Figure 4.1: Mission Model – Link-16 Communication System](03-model-implementation-and-verification-pages-048-059.md#source-pdf-page-53) |
-| 54 | Figure | [Figure 4.2 shows the OPNET  host node model used to generate J-series messages, which](03-model-implementation-and-verification-pages-048-059.md#source-pdf-page-54) |
 | 54 | Figure | [Figure 4.2: dls_JTIDS_host Node Model](03-model-implementation-and-verification-pages-048-059.md#source-pdf-page-54) |
 | 55 | Figure | [Figure 4.3: dls_radio_JTIDS Node Model](03-model-implementation-and-verification-pages-048-059.md#source-pdf-page-55) |
 | 56 | Table | [Table 4.1: Verification Workload Parameters](03-model-implementation-and-verification-pages-048-059.md#source-pdf-page-56) |
@@ -69,12 +62,7 @@ Captions below are normalized from extracted text. The visual-page inventory inc
 | 1 | 1 | 804 | [Text accompanies embedded image(s).](00-front-matter-pages-001-011.md#source-pdf-page-1) |
 | 2 | 1 | 268 | [Visual-heavy page with embedded image(s); use the source or mapped native assets for fidelity.](00-front-matter-pages-001-011.md#source-pdf-page-2) |
 | 5 | 1 | 418 | [Visual-heavy page with embedded image(s); use the source or mapped native assets for fidelity.](00-front-matter-pages-001-011.md#source-pdf-page-5) |
-| 7 | 0 | 2,465 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](00-front-matter-pages-001-011.md#source-pdf-page-7) |
-| 11 | 0 | 2,194 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](00-front-matter-pages-001-011.md#source-pdf-page-11) |
-| 13 | 0 | 2,286 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](01-introduction-and-background-pages-012-034.md#source-pdf-page-13) |
-| 20 | 0 | 1,698 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](01-introduction-and-background-pages-012-034.md#source-pdf-page-20) |
 | 21 | 11 | 954 | [Text accompanies embedded image(s).](01-introduction-and-background-pages-012-034.md#source-pdf-page-21) |
-| 22 | 0 | 1,791 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](01-introduction-and-background-pages-012-034.md#source-pdf-page-22) |
 | 23 | 99 | 939 | [Text accompanies embedded image(s).](01-introduction-and-background-pages-012-034.md#source-pdf-page-23) |
 | 24 | 14 | 1,093 | [Text accompanies embedded image(s).](01-introduction-and-background-pages-012-034.md#source-pdf-page-24) |
 | 33 | 0 | 1,295 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](01-introduction-and-background-pages-012-034.md#source-pdf-page-33) |

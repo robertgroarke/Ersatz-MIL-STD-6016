@@ -79,9 +79,7 @@ Those familiar with Wireshark will find that the Link-
 
 ### 16 dissector has the same us er interface as existing
 
-decoders. Existing Wireshark facilities to capture, sort and dissect packets, and apply filters (through expression syntax) and perform bandwidth utilisation calculations are all available with the Link 16 dissector.
-
-### Figure 1 shows the main window of Wireshark. This
+decoders. Existing Wireshark facilities to capture, sort and dissect packets, and apply filters (through expression syntax) and perform bandwidth utilisation calculations are all available with the Link 16 dissector. Figure 1 shows the main window of Wireshark. This
 
 <a id="source-pdf-page-4"></a>
 

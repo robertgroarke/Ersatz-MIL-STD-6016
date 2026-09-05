@@ -8,22 +8,22 @@
 | 4 | [Front matter](00-front-matter-pages-001-011.md#source-pdf-page-4) | 476 | 65 | 0 | text extracted |
 | 5 | [Front matter](00-front-matter-pages-001-011.md#source-pdf-page-5) | 418 | 69 | 1 | visual-heavy; text partial |
 | 6 | [Front matter](00-front-matter-pages-001-011.md#source-pdf-page-6) | 864 | 128 | 0 | text extracted |
-| 7 | [Front matter](00-front-matter-pages-001-011.md#source-pdf-page-7) | 2,465 | 108 | 0 | text plus visual layout; inspect source rendering |
+| 7 | [Front matter](00-front-matter-pages-001-011.md#source-pdf-page-7) | 2,465 | 108 | 0 | text extracted |
 | 8 | [Front matter](00-front-matter-pages-001-011.md#source-pdf-page-8) | 2,471 | 113 | 0 | text extracted |
 | 9 | [Front matter](00-front-matter-pages-001-011.md#source-pdf-page-9) | 2,268 | 112 | 0 | text extracted |
 | 10 | [Front matter](00-front-matter-pages-001-011.md#source-pdf-page-10) | 2,475 | 128 | 0 | text extracted |
-| 11 | [Front matter](00-front-matter-pages-001-011.md#source-pdf-page-11) | 2,194 | 146 | 0 | text plus visual layout; inspect source rendering |
+| 11 | [Front matter](00-front-matter-pages-001-011.md#source-pdf-page-11) | 2,194 | 146 | 0 | text extracted |
 | 12 | [Introduction and background](01-introduction-and-background-pages-012-034.md#source-pdf-page-12) | 375 | 25 | 0 | text extracted |
-| 13 | [Introduction and background](01-introduction-and-background-pages-012-034.md#source-pdf-page-13) | 2,286 | 141 | 0 | text plus visual layout; inspect source rendering |
+| 13 | [Introduction and background](01-introduction-and-background-pages-012-034.md#source-pdf-page-13) | 2,286 | 141 | 0 | text extracted |
 | 14 | [Introduction and background](01-introduction-and-background-pages-012-034.md#source-pdf-page-14) | 820 | 70 | 0 | text extracted |
 | 15 | [Introduction and background](01-introduction-and-background-pages-012-034.md#source-pdf-page-15) | 1,378 | 209 | 0 | text extracted |
 | 16 | [Introduction and background](01-introduction-and-background-pages-012-034.md#source-pdf-page-16) | 1,585 | 239 | 0 | text extracted |
 | 17 | [Introduction and background](01-introduction-and-background-pages-012-034.md#source-pdf-page-17) | 1,989 | 298 | 0 | text extracted |
 | 18 | [Introduction and background](01-introduction-and-background-pages-012-034.md#source-pdf-page-18) | 1,706 | 259 | 0 | text extracted |
 | 19 | [Introduction and background](01-introduction-and-background-pages-012-034.md#source-pdf-page-19) | 967 | 145 | 0 | text extracted |
-| 20 | [Introduction and background](01-introduction-and-background-pages-012-034.md#source-pdf-page-20) | 1,698 | 257 | 0 | text plus visual layout; inspect source rendering |
+| 20 | [Introduction and background](01-introduction-and-background-pages-012-034.md#source-pdf-page-20) | 1,698 | 257 | 0 | text extracted |
 | 21 | [Introduction and background](01-introduction-and-background-pages-012-034.md#source-pdf-page-21) | 954 | 133 | 11 | text plus visual layout; inspect source rendering |
-| 22 | [Introduction and background](01-introduction-and-background-pages-012-034.md#source-pdf-page-22) | 1,791 | 265 | 0 | text plus visual layout; inspect source rendering |
+| 22 | [Introduction and background](01-introduction-and-background-pages-012-034.md#source-pdf-page-22) | 1,791 | 265 | 0 | text extracted |
 | 23 | [Introduction and background](01-introduction-and-background-pages-012-034.md#source-pdf-page-23) | 939 | 142 | 99 | text plus visual layout; inspect source rendering |
 | 24 | [Introduction and background](01-introduction-and-background-pages-012-034.md#source-pdf-page-24) | 1,093 | 150 | 14 | text plus visual layout; inspect source rendering |
 | 25 | [Introduction and background](01-introduction-and-background-pages-012-034.md#source-pdf-page-25) | 1,426 | 205 | 0 | text extracted |
