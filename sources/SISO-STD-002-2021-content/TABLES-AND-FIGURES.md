@@ -1,6 +1,6 @@
 # Tables, figures, and visual-content audit - SISO-STD-002-2021
 
-Captions below are normalized from extracted text. The visual-page inventory also includes pages where the parser reported embedded images but no caption survived extraction.
+Captions below are normalized from extracted text. The visual-page inventory includes parser-reported embedded images and caption-inferred vector/table/figure layouts. PDF vector paths are not embedded images, so an image count of zero is not evidence that a page is text-only.
 
 ## Extracted captions
 
@@ -132,23 +132,62 @@ Captions below are normalized from extracted text. The visual-page inventory als
 | 86 | Table | [Table B-17 provides another perspective of the fields of the Link 16 Message data for the Message Type](08-annex-b-dis-hla-translations-pages-069-088.md#source-pdf-page-86) |
 | 86 | Table | [Table B-17: Link 16 Message Data for VMF](08-annex-b-dis-hla-translations-pages-069-088.md#source-pdf-page-86) |
 
-## Pages containing embedded images
+## Pages with embedded images or inferred visual layout
 
 | Source PDF page | Images | Extracted characters | Review note |
 | ---: | ---: | ---: | --- |
-| 1 | 1 | 245 | [Visual-heavy page; use the source or mapped native assets for fidelity.](00-front-matter-pages-001-011.md#source-pdf-page-1) |
-| 43 | 3 | 1,238 | [Text accompanies image(s).](05-dis-signal-pdu-and-link-16-data-pages-034-043.md#source-pdf-page-43) |
-| 71 | 4 | 1,374 | [Text accompanies image(s).](08-annex-b-dis-hla-translations-pages-069-088.md#source-pdf-page-71) |
-| 74 | 4 | 2,674 | [Text accompanies image(s).](08-annex-b-dis-hla-translations-pages-069-088.md#source-pdf-page-74) |
-| 75 | 7 | 3,081 | [Text accompanies image(s).](08-annex-b-dis-hla-translations-pages-069-088.md#source-pdf-page-75) |
-| 76 | 11 | 2,237 | [Text accompanies image(s).](08-annex-b-dis-hla-translations-pages-069-088.md#source-pdf-page-76) |
-| 77 | 7 | 1,992 | [Text accompanies image(s).](08-annex-b-dis-hla-translations-pages-069-088.md#source-pdf-page-77) |
-| 78 | 6 | 2,037 | [Text accompanies image(s).](08-annex-b-dis-hla-translations-pages-069-088.md#source-pdf-page-78) |
-| 80 | 11 | 2,501 | [Text accompanies image(s).](08-annex-b-dis-hla-translations-pages-069-088.md#source-pdf-page-80) |
-| 84 | 6 | 3,120 | [Text accompanies image(s).](08-annex-b-dis-hla-translations-pages-069-088.md#source-pdf-page-84) |
-| 86 | 8 | 3,149 | [Text accompanies image(s).](08-annex-b-dis-hla-translations-pages-069-088.md#source-pdf-page-86) |
-| 87 | 5 | 3,030 | [Text accompanies image(s).](08-annex-b-dis-hla-translations-pages-069-088.md#source-pdf-page-87) |
-| 88 | 6 | 912 | [Text accompanies image(s).](08-annex-b-dis-hla-translations-pages-069-088.md#source-pdf-page-88) |
+| 1 | 1 | 245 | [Visual-heavy page with embedded image(s); use the source or mapped native assets for fidelity.](00-front-matter-pages-001-011.md#source-pdf-page-1) |
+| 7 | 0 | 4,993 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](00-front-matter-pages-001-011.md#source-pdf-page-7) |
+| 10 | 0 | 4,911 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](00-front-matter-pages-001-011.md#source-pdf-page-10) |
+| 11 | 0 | 2,187 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](00-front-matter-pages-001-011.md#source-pdf-page-11) |
+| 22 | 0 | 3,401 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](03-requirements-and-operating-characteristics-pages-020-028.md#source-pdf-page-22) |
+| 23 | 0 | 2,167 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](03-requirements-and-operating-characteristics-pages-020-028.md#source-pdf-page-23) |
+| 25 | 0 | 2,222 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](03-requirements-and-operating-characteristics-pages-020-028.md#source-pdf-page-25) |
+| 26 | 0 | 3,114 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](03-requirements-and-operating-characteristics-pages-020-028.md#source-pdf-page-26) |
+| 29 | 0 | 3,947 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](04-dis-transmitter-pdu-pages-029-033.md#source-pdf-page-29) |
+| 31 | 0 | 2,622 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](04-dis-transmitter-pdu-pages-029-033.md#source-pdf-page-31) |
+| 34 | 0 | 3,136 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](05-dis-signal-pdu-and-link-16-data-pages-034-043.md#source-pdf-page-34) |
+| 35 | 0 | 3,033 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](05-dis-signal-pdu-and-link-16-data-pages-034-043.md#source-pdf-page-35) |
+| 36 | 0 | 1,314 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](05-dis-signal-pdu-and-link-16-data-pages-034-043.md#source-pdf-page-36) |
+| 37 | 0 | 943 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](05-dis-signal-pdu-and-link-16-data-pages-034-043.md#source-pdf-page-37) |
+| 38 | 0 | 1,261 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](05-dis-signal-pdu-and-link-16-data-pages-034-043.md#source-pdf-page-38) |
+| 39 | 0 | 1,085 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](05-dis-signal-pdu-and-link-16-data-pages-034-043.md#source-pdf-page-39) |
+| 40 | 0 | 1,262 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](05-dis-signal-pdu-and-link-16-data-pages-034-043.md#source-pdf-page-40) |
+| 41 | 0 | 1,164 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](05-dis-signal-pdu-and-link-16-data-pages-034-043.md#source-pdf-page-41) |
+| 42 | 0 | 1,255 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](05-dis-signal-pdu-and-link-16-data-pages-034-043.md#source-pdf-page-42) |
+| 43 | 3 | 1,238 | [Text accompanies embedded image(s).](05-dis-signal-pdu-and-link-16-data-pages-034-043.md#source-pdf-page-43) |
+| 46 | 0 | 3,660 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](06-hla-requirements-pages-044-051.md#source-pdf-page-46) |
+| 50 | 0 | 890 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](06-hla-requirements-pages-044-051.md#source-pdf-page-50) |
+| 51 | 0 | 711 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](06-hla-requirements-pages-044-051.md#source-pdf-page-51) |
+| 52 | 0 | 1,544 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](07-annex-a-fom-module-pages-052-068.md#source-pdf-page-52) |
+| 55 | 0 | 2,090 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](07-annex-a-fom-module-pages-052-068.md#source-pdf-page-55) |
+| 56 | 0 | 1,582 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](07-annex-a-fom-module-pages-052-068.md#source-pdf-page-56) |
+| 58 | 0 | 1,671 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](07-annex-a-fom-module-pages-052-068.md#source-pdf-page-58) |
+| 60 | 0 | 1,044 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](07-annex-a-fom-module-pages-052-068.md#source-pdf-page-60) |
+| 61 | 0 | 1,635 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](07-annex-a-fom-module-pages-052-068.md#source-pdf-page-61) |
+| 62 | 0 | 795 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](07-annex-a-fom-module-pages-052-068.md#source-pdf-page-62) |
+| 65 | 0 | 2,398 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](07-annex-a-fom-module-pages-052-068.md#source-pdf-page-65) |
+| 66 | 0 | 1,969 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](07-annex-a-fom-module-pages-052-068.md#source-pdf-page-66) |
+| 69 | 0 | 2,950 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](08-annex-b-dis-hla-translations-pages-069-088.md#source-pdf-page-69) |
+| 70 | 0 | 1,805 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](08-annex-b-dis-hla-translations-pages-069-088.md#source-pdf-page-70) |
+| 71 | 4 | 1,374 | [Text accompanies embedded image(s).](08-annex-b-dis-hla-translations-pages-069-088.md#source-pdf-page-71) |
+| 72 | 0 | 2,219 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](08-annex-b-dis-hla-translations-pages-069-088.md#source-pdf-page-72) |
+| 73 | 0 | 1,416 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](08-annex-b-dis-hla-translations-pages-069-088.md#source-pdf-page-73) |
+| 74 | 4 | 2,674 | [Text accompanies embedded image(s).](08-annex-b-dis-hla-translations-pages-069-088.md#source-pdf-page-74) |
+| 75 | 7 | 3,081 | [Text accompanies embedded image(s).](08-annex-b-dis-hla-translations-pages-069-088.md#source-pdf-page-75) |
+| 76 | 11 | 2,237 | [Text accompanies embedded image(s).](08-annex-b-dis-hla-translations-pages-069-088.md#source-pdf-page-76) |
+| 77 | 7 | 1,992 | [Text accompanies embedded image(s).](08-annex-b-dis-hla-translations-pages-069-088.md#source-pdf-page-77) |
+| 78 | 6 | 2,037 | [Text accompanies embedded image(s).](08-annex-b-dis-hla-translations-pages-069-088.md#source-pdf-page-78) |
+| 79 | 0 | 2,012 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](08-annex-b-dis-hla-translations-pages-069-088.md#source-pdf-page-79) |
+| 80 | 11 | 2,501 | [Text accompanies embedded image(s).](08-annex-b-dis-hla-translations-pages-069-088.md#source-pdf-page-80) |
+| 81 | 0 | 1,806 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](08-annex-b-dis-hla-translations-pages-069-088.md#source-pdf-page-81) |
+| 82 | 0 | 1,947 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](08-annex-b-dis-hla-translations-pages-069-088.md#source-pdf-page-82) |
+| 83 | 0 | 1,818 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](08-annex-b-dis-hla-translations-pages-069-088.md#source-pdf-page-83) |
+| 84 | 6 | 3,120 | [Text accompanies embedded image(s).](08-annex-b-dis-hla-translations-pages-069-088.md#source-pdf-page-84) |
+| 85 | 0 | 847 | [Captioned vector/table/figure layout inferred; parser image count is zero, so inspect the source rendering.](08-annex-b-dis-hla-translations-pages-069-088.md#source-pdf-page-85) |
+| 86 | 8 | 3,149 | [Text accompanies embedded image(s).](08-annex-b-dis-hla-translations-pages-069-088.md#source-pdf-page-86) |
+| 87 | 5 | 3,030 | [Text accompanies embedded image(s).](08-annex-b-dis-hla-translations-pages-069-088.md#source-pdf-page-87) |
+| 88 | 6 | 912 | [Text accompanies embedded image(s).](08-annex-b-dis-hla-translations-pages-069-088.md#source-pdf-page-88) |
 
 ## Fidelity boundary
 

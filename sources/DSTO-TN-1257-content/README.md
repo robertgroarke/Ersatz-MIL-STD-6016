@@ -15,7 +15,7 @@ This directory maps all 41 pages of `DSTO-TN-1257.pdf` into navigable Markdown. 
 ## Audits
 
 - [`COVERAGE.md`](COVERAGE.md) maps every source page to its output anchor and records extraction/visual density.
-- [`TABLES-AND-FIGURES.md`](TABLES-AND-FIGURES.md) inventories extracted table/figure captions and every page containing embedded images.
+- [`TABLES-AND-FIGURES.md`](TABLES-AND-FIGURES.md) inventories extracted table/figure captions and every page containing embedded images or a caption-inferred vector/table/figure layout.
 - Hash and source identity are retained in the concise entry point and the repository-wide `docs/PDF-CONVERSION-INDEX.md`.
 
-This structure preserves recoverable text and locators. It does not claim that text extraction recreates a glyph, diagram, map, line style, or exact table cell geometry.
+This structure preserves recoverable text and locators. Parser image counts do not detect PDF vector paths, so caption-inferred visual pages are also flagged. The conversion does not claim that text extraction recreates a glyph, diagram, map, line style, or exact table cell geometry.

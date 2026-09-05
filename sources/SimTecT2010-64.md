@@ -4,7 +4,7 @@
 
 | Field | Value |
 | --- | --- |
-| Authors | William Robertson, Andrew Ross, and others |
+| Authors | William Robertson, Peter Ross, and Andrew Robbie |
 | Venue | SimTecT 2010 |
 | Original file | `SimTecT2010-64.pdf` |
 | Original length | 4 PDF pages |
