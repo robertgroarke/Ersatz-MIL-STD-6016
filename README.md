@@ -16,7 +16,7 @@ The interactive HTML reference is published via GitHub Pages:
 |------|-------------|
 | `link16-schema.json` | Machine-readable JSON schema — message types, NPGs, physical/link layer parameters |
 | `link16-reference.html` | Self-contained HTML reference with search, filtering, and deep-linking |
-| `sources/` | Public-domain source PDFs used in reconstruction |
+| `sources/` | Markdown references derived from the public source set; each records the exact original's hash and length |
 
 ### Schema coverage
 
@@ -43,10 +43,10 @@ The interactive HTML reference is published via GitHub Pages:
 
 ## Sources
 
-- **SISO-STD-002-2021** — Standard for Link 16 Simulation Version 2.0
-- **DSTO-TN-1257** — An Analysis of Link 16 for UAS ISR Missions
-- **SimTecT 2010-64** — Simulation of Link 16 Protocol
-- **AFIT IP-Over-Link16** — Air Force Institute of Technology thesis
+- [**SISO-STD-002-2021**](sources/SISO-STD-002-2021.md) — Standard for Link 16 Simulation Version 2.0
+- [**DSTO-TN-1257**](sources/DSTO-TN-1257.md) — Extending the Wireshark Network Protocol Analyser to Decode Link 16 Tactical Data Link Messages
+- [**SimTecT 2010-64**](sources/SimTecT2010-64.md) — An Open Source Network Protocol Analyser for SISO-J TDL Simulation
+- [**AFIT IP-Over-Link16**](sources/AFIT-IP-Over-Link16.md) — Air Force Institute of Technology thesis
 
 ## License
 
